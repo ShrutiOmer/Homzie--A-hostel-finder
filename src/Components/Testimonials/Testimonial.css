@@ -1,0 +1,21 @@
+.slick-prev:before, .slick-next:before {   
+    font-family: 'slick';
+    font-size: 54px !important ;
+    margin-bottom: 10px;
+    line-height: 1;
+    opacity: .75;
+    color: #fb8f1d !important ;
+    -webkit-font-smoothing: antialiased;
+}
+.slick-next, .slick-prev {
+    height: 54px !important;
+}
+.slick-prev{
+    margin-left: 37px;
+}
+.slick-slider{
+    width: 95%;
+}
+.container {
+    background-color: aqua;
+}
