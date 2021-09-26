@@ -1,10 +1,10 @@
 import React from 'react'
+import FeaturedHostel from '../../Components/FeaturedHostel/FeaturedHostel';
 
 const HomePage = () => {
     return (
         <div>
-            <h4>Homepage</h4>
-           <h1> Hello Homzie Girls</h1>
+            <FeaturedHostel/>
         </div>
     )
 }

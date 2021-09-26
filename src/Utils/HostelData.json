@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "img": "https://source.unsplash.com/1600x900/?hostel,house",
+        "name": "LoremIpsum",
+        "location": "Lorem Ipsum"
+    },
+    {
+        "id": 2,
+        "img": "https://source.unsplash.com/1600x900/?house,room",
+        "name": "LoremIpsum",
+        "location": "Lorem Ipsum"
+    },
+    {
+        "id": 3,
+        "img": "https://source.unsplash.com/1600x900/?hotel,house",
+        "name": "LoremIpsum",
+        "location": "Lorem Ipsum"
+    },
+    {
+        "id": 4,
+        "img": "https://source.unsplash.com/1600x900/?hostel,studentroom",
+        "name": "LoremIpsum",
+        "location": "Lorem Ipsum"
+    },
+    {
+        "id": 5,
+        "img": "https://source.unsplash.com/1600x900/?hostel,housing",
+        "name": "LoremIpsum",
+        "location": "Lorem Ipsum"
+    },
+    {
+        "id": 6,
+        "img": "https://source.unsplash.com/1600x900/?hostel,room",
+        "name": "LoremIpsum",
+        "location": "Lorem Ipsum"
+    }
+]

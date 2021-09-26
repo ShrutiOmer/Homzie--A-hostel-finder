@@ -1,0 +1,30 @@
+
+.hostelContainer{
+    width: 100%;
+    padding: 2rem 4rem 2rem 6rem;
+    /* border: 1px solid black; */
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6rem 1.5rem 6rem;
+}
+.heading{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 50px;
+    color: #000000;
+    mix-blend-mode: normal;
+}
+.link{
+    font-family: 'Playfair Display', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;
+    color: #FB8F1D;
+    mix-blend-mode: normal;
+    text-decoration: none;
+}
