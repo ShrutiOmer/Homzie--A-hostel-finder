@@ -1,0 +1,50 @@
+.links li{
+  list-style-type:none;
+  /* padding-right: 5px; */
+  margin: 0px 20px; 
+}
+
+.contact{
+  display: flex; 
+}
+
+
+.nav{
+   display: flex;
+   justify-content: space-between;
+   /* min-height: 10vh; */
+   align-items: center;
+   background-color: white;
+   padding: 0px 25px;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+}
+
+nav .links{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ margin-left: 22rem;
+  
+  
+}
+
+nav .links a{
+  font-size: 13px;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 25px;
+    color: #202336;
+  
+}
+
+.logo img{
+  text-align: left;
+  width: 250px;
+  height: 80px;
+  left: 164px;
+  top: 21px;
+}
+.btns{
+  display: flex;
+}
