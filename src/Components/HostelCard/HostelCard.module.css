@@ -1,0 +1,35 @@
+.cardContainer{
+    width: 20em;
+    height: 20em;
+    margin: 20px;
+}
+.cardContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px;
+}
+.detail{
+    top: -4em;
+    position: relative;
+    background: white;
+    width: max-content;
+    padding: 7px;
+    border-radius: 0px 6px 0px 0px;
+
+}
+.detail h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 25px;
+    color: #042521;
+    mix-blend-mode: normal;
+}
+.detail p{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    color: #cbcccc;
+    mix-blend-mode: normal;
+}

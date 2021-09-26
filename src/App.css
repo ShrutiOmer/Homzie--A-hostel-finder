@@ -1,8 +1,20 @@
-*{
-   margin : 0;
-   padding: 0;
-   box-sizing: border-box;
-   margin-left: 5px;
-   margin-right: 5px;
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Playfair Display', serif;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+textarea{
+  overflow: hidden;
+}
+textarea:focus, input:focus{
+  outline: none;
 }
 
