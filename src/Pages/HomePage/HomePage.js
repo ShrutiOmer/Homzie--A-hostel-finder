@@ -1,14 +1,16 @@
 import React from 'react'
 import About from '../../Components/About/About'
 import Testimonials from '../../Components/Testimonials/Testimonials'
-
+import Home from '../../Components/Home/Home'
+import FeaturedHostel from '../../Components/FeaturedHostel/FeaturedHostel';
+import styles from './HomePage.module.css'
 const HomePage = () => {
     return (
-        <div style= {{display : 'flex', flexDirection : 'column', alignItems : 'center'}}>
-        <h4>Homepage</h4>
-           <h1> Hello Homzie Girls</h1>
-           <About />
-           <Testimonials />
+        <div className={styles.homeContainer}>
+            <Home />
+            <About />
+            <FeaturedHostel/>
+            <Testimonials />
         </div>
     )
 }

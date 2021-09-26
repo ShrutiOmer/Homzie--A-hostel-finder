@@ -1,0 +1,19 @@
+.rec.rec-arrow{
+    background-color:white;
+    box-shadow: none;
+    color:  #FB8F1D;
+    font-size: 2.5em;
+}
+.rec.rec-arrow:hover:enabled, .rec.rec-arrow:focus:enabled {
+    color: #fff;
+    background-color:  #FB8F1D;
+    box-shadow: 0 0 2px 0 #333;
+}
+.rec.rec-dot_active{
+    background-color: #FB8F1D;
+    box-shadow: 0 0 1px 3px #FB8F1D;
+}
+.rec.rec-dot_active:hover, .rec.rec-dot_active:focus {
+    cursor: pointer;
+    box-shadow: 0 0 1px 3px #FB8F1D;
+}
