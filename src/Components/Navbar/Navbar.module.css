@@ -1,69 +1,50 @@
-li{
+.links li{
   list-style-type:none;
-  padding-right: 5px;
-  
+  /* padding-right: 5px; */
+  margin: 0px 20px; 
 }
 
 .contact{
-  display: flex;
-  
+  display: flex; 
 }
 
-a{
-  text-decoration: none;
-  
 
-}
-
-nav{
+.nav{
    display: flex;
    justify-content: space-between;
    min-height: 10vh;
    align-items: center;
    background-color: white;
-   
+   padding: 0px 25px;
+    box-shadow: 2px 2px 2px rgb(0 0 0 / 10%);
+}
+
+nav .links{
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+ margin-left: 22rem;
+  
   
 }
 
-   nav .links{
-     display: flex;
-     justify-content: space-between;
-      margin-right: 76px;
-     width:35px;
-    align-items: center;
-     
-     
-   }
-
-   nav .links a{
-     font-size: 14px;
-     font-weight: 500;
-     color: #000;
-     width: 100px;
-     
-   }
-
-   
-  h1{
-    position: absolute;
-    width: 421px;
-    height: 160px;
-    left: 117px;
-    top: 150px;
-    
-    font-family: Playfair Display;
+nav .links a{
+  font-size: 15px;
+    text-decoration: none;
     font-style: normal;
     font-weight: bold;
-    font-size: 46px;
-    line-height: 80px;
-  }
-
-  .logo img{
-    text-align: left;
-     width: 250px;
-     height: 90px;
-     left: 164px;
-     top: 21px;
-  }
-
+    line-height: 25px;
+    color: #202336;
   
+}
+
+.logo img{
+  text-align: left;
+  width: 250px;
+  height: 90px;
+  left: 164px;
+  top: 21px;
+}
+.btns{
+  display: flex;
+}

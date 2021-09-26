@@ -1,15 +1,13 @@
 .btn{
-   border :none;
-   background: transparent;
-   padding : 3px 10px;
-   font-size: 1.1rem;
-   color: #fb8f1d;
-   border : 2px solid #fb8f1d;
-   border-radius: 5px;
-   width: 100px;
-    height: 28px;
-   left: 343px;
-   top: 58px;
+  border: none;
+  background: transparent;
+  font-size: 1.1rem;
+  color: #fb8f1d;
+  border: 2px solid #fb8f1d;
+  border-radius: 5px;
+  width: 100px;
+  height: 28px;
+  margin-left: 19px;
 }
 
 .btn:hover{

@@ -1,8 +1,6 @@
 import React from 'react';
-import { BrowserRouter} from 'react-router-dom';
 import styles from './Navbar.module.css';
-import logo from '../../assets/images/logo.png';
-
+import logo from '../../Assets/images/logo.png';
 import Button from '../Button/Button';
 const Navbar = () => {
     return (
@@ -37,10 +35,11 @@ const Navbar = () => {
                     </li>
 
                 </ul>
+                <div className={styles.btns}>
+                    <Button name="Login"></Button>
+                    <Button name="Register"></Button>
+                </div>
                 
-                <BrowserRouter>
-                    <Button />
-                </BrowserRouter>
             </nav>
 
             

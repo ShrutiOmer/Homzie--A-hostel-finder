@@ -1,12 +1,11 @@
 import React from 'react';
 import { Link } from "react-router-dom";
 import "./Button.css";
-function Button() {
+function Button(props) {
     return(
-        <Link to="Login">
-            <button className="btn">Login</button>
-            <button className="btn">Register</button>
-        </Link>
+        <div>
+        <Link to="/"><button className="btn">{props.name}</button></Link>
+        </div>
     );
 };
 

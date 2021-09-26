@@ -8,8 +8,6 @@
   margin: 0;
   box-sizing: border-box;
   font-family: 'Playfair Display', serif;
-  margin-left: 5px;
-  margin-right: 5px;
 }
 textarea{
   overflow: hidden;
