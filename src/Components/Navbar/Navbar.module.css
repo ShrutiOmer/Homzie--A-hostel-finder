@@ -1,0 +1,69 @@
+li{
+  list-style-type:none;
+  padding-right: 5px;
+  
+}
+
+.contact{
+  display: flex;
+  
+}
+
+a{
+  text-decoration: none;
+  
+
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   min-height: 10vh;
+   align-items: center;
+   background-color: white;
+   
+  
+}
+
+   nav .links{
+     display: flex;
+     justify-content: space-between;
+      margin-right: 76px;
+     width:35px;
+    align-items: center;
+     
+     
+   }
+
+   nav .links a{
+     font-size: 14px;
+     font-weight: 500;
+     color: #000;
+     width: 100px;
+     
+   }
+
+   
+  h1{
+    position: absolute;
+    width: 421px;
+    height: 160px;
+    left: 117px;
+    top: 150px;
+    
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 46px;
+    line-height: 80px;
+  }
+
+  .logo img{
+    text-align: left;
+     width: 250px;
+     height: 90px;
+     left: 164px;
+     top: 21px;
+  }
+
+  

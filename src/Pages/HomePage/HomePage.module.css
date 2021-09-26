@@ -1,0 +1,19 @@
+.fimage{
+    text-align: right;
+ 
+  }
+
+  .search{
+    position: absolute;
+   width: 150px;
+   height: 50px;
+   left: 90px;
+   top: 370px;
+
+  }
+
+  .search img{
+     width:30px;
+     background: #202336;
+
+  }

@@ -1,0 +1,52 @@
+.location{
+position: absolute;
+width: 150px;
+height: 30px;
+left: 90px;
+/* border:1px solid grey; */
+top : 430px;
+border-radius: 6px;
+box-shadow:0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.price{
+position: absolute;
+width: 150px;
+height: 30px;
+left: 270px;
+top: 430px;
+border : 1px solid grey;
+border-radius: 6px;
+box-shadow:0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.type{
+position: absolute;
+width: 150px;
+height: 30px;
+left: 90px;
+top: 490px;
+border:1px solid grey;
+border-radius: 6px;
+box-shadow:0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sbtn{
+ position: absolute;
+width: 150px;
+height: 30px;
+left: 270px;
+top: 490px;
+background: #FB8F1D;
+color: white;
+border-radius: 6px;
+border: none;
+}
+
+.container{
+    margin-left: 100px;
+}
+
+select:focus{
+    outline: none;
+}
