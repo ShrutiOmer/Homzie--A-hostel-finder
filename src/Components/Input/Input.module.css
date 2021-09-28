@@ -1,0 +1,17 @@
+.input{
+    display: flex;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+.input input{
+    background: none;
+    border: none;
+}
+.input input::placeholder{
+    color: white;
+}
+.icon{
+    margin: 10px;
+}
