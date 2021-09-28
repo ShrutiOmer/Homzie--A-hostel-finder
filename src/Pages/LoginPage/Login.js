@@ -16,7 +16,7 @@ const Login = () => {
                <Input type='text' name='username' placeholder='USERNAME' icon={faUser} />
                <Input type='password' name='pwd' placeholder='PASSWORD' icon={faLock} />
                <button className={styles.btn}>LOGIN</button>
-               <h3><Link to='/' style={{textDecoration:'none' ,color:'white'}}>Forgot Password?</Link></h3>
+               <h3><Link to='/ResetPage' style={{textDecoration:'none' ,color:'white'}}>Forgot Password?</Link></h3>
                <div className={styles.or} >
                 <div className={styles.line}></div><span>OR</span><div className={styles.line}></div>
                </div>

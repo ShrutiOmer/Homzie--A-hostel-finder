@@ -37,6 +37,7 @@ import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
 //import Navbar from "./Components/Navbar/Navbar";
 // import Footer from "./Components/Footer/Footer";
 import LoginPage from "./Pages/LoginPage/Login"
+import ResetPage from "./Pages/ResetPage/ResetPage"
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/login" component={LoginPage} />
+        <Route exact path="/ResetPage" component={ResetPage} />
         <Route component={NotFoundPage} />
       </Switch>
       {/* <Footer /> */}
