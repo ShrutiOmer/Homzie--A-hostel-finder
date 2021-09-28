@@ -15,7 +15,7 @@ const breakPoints = [
 
 const FeaturedHostel = () => {
     return (
-        <section className={styles.hostelContainer}>
+        <section id="hostels" className={styles.hostelContainer}>
             <div className={styles.header}>
                 <h1 className={styles.heading}>Featured Hostels</h1>
                 <Link to='/' className={styles.link}>View All &nbsp; &nbsp; &gt;</Link>

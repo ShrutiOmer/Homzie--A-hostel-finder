@@ -12,7 +12,8 @@ const Login = () => {
         <div className={styles.container}>
            <Background /> 
            <div className={styles.form}>
-               <h1 className={styles.heading}>Reset</h1>
+               <h1 className={styles.heading}>Reset Password</h1>
+               <h3 className={styles.sub}>Enter your EMAIL to reset password</h3>
                <Input type='text' name='username' placeholder='USERNAME' icon={faUser} />
                <Input type='password' name='pwd' placeholder='NEW-PASSWORD' icon={faLock} />
                <button className={styles.btn}>RESET PASSWORD</button>

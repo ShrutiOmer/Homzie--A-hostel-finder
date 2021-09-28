@@ -6,7 +6,7 @@ import Dropdown from './Dropdown'
 
 const Home = () => {
     return (
-        <div className={styles.home}>
+        <div id='home' className={styles.home}>
             <div className={styles.content}>
                 <div className={styles.find}>
                     <h1>Find Your New Home With Us</h1>

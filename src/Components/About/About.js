@@ -4,7 +4,7 @@ import styles from '../About/About.module.css'
 
 function About() {
     return (
-        <div className={styles.aboutWrapper}>
+        <div id='about' className={styles.aboutWrapper}>
             <div className={styles.aboutImg}>
                 <img src={img} alt="about" />
             </div>

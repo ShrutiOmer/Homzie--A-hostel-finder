@@ -36,8 +36,11 @@ import HomePage from "./Pages/HomePage/HomePage";
 import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
 //import Navbar from "./Components/Navbar/Navbar";
 // import Footer from "./Components/Footer/Footer";
-import LoginPage from "./Pages/LoginPage/Login"
+
+import LoginPage from "./Pages/LoginPage/Login";
+import RegisterPage from "./Pages/RegisterPage/Register";
 import ResetPage from "./Pages/ResetPage/ResetPage"
+
 
 function App() {
   return (
@@ -47,6 +50,8 @@ function App() {
         <Route exact path="/" component={HomePage} />
         <Route exact path="/login" component={LoginPage} />
         <Route exact path="/reset" component={ResetPage} />
+        <Route exact path="/register" component={RegisterPage} />
+
         <Route component={NotFoundPage} />
       </Switch>
       {/* <Footer /> */}

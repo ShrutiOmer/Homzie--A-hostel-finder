@@ -16,13 +16,13 @@
 }
 .heading{
     text-align: center;
-    width: 100%;
+    width: 300px;
     margin-bottom: 20px;
     font-style: normal;
-    font-weight: normal;
-    font-size: 59px;
-    line-height: 85px;
-    color: #FFFFFF;
+font-weight: normal;
+font-size: 64px;
+line-height: 85px;
+color: #FFFFFF;
 
 }
 .btn{
@@ -43,13 +43,11 @@ display: flex;
     justify-content: center;
     align-items: center;
 }
-.sub{
+
+
+ .member{
     text-align: center;
-    width: 300px;
-    margin-bottom: 20px;
-    font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 10px;
-color: #FFFFFF;
+    font-weight:550;
+    color: #FFFFFF;
+    font-size: 18px;
 }

@@ -22,7 +22,7 @@ export default class Testimonials extends Component {
             className : 'slides'
         };
         return (
-            <div className={styles.testimonialWrapper}>
+            <div id="testimonial" className={styles.testimonialWrapper}>
                 <div className={styles.heading}>
                     <h2>What People think about Homzie</h2>
                 </div>

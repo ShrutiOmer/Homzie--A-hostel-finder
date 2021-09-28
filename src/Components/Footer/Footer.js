@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
     return (
-        <div className={styles.footerContainer}>
+        <div id="contact" className={styles.footerContainer}>
             <div className={styles.upper}>
                 <div className={styles.image1}><img src={img} alt="contactUs" /></div>
                 <div className={styles.contactUs}>
