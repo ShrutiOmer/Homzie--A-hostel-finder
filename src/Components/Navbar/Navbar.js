@@ -38,7 +38,7 @@ const Navbar = () => {
                 </ul>
                 <div className={styles.btns}>
                     <Button name="Login" link='/login'></Button>
-                    <Button name="Register"></Button>
+                    <Button name="Register" link='/Register'></Button>
                 </div>
                 
             </nav>
