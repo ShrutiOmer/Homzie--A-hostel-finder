@@ -4,7 +4,7 @@ import "./Button.css";
 function Button(props) {
     return(
         <div>
-        <Link to="/"><button className="btn">{props.name}</button></Link>
+        <Link to={props.link}><button className="btn">{props.name}</button></Link>
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Navbar.module.css';
 import logo from '../../Assets/images/logo.png';
 import Button from '../Button/Button';
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return (
 
@@ -36,7 +37,7 @@ const Navbar = () => {
 
                 </ul>
                 <div className={styles.btns}>
-                    <Button name="Login"></Button>
+                    <Button name="Login" link='/login'></Button>
                     <Button name="Register"></Button>
                 </div>
                 
