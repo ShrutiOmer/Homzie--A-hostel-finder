@@ -4,7 +4,9 @@ import Testimonials from '../../Components/Testimonials/Testimonials'
 import Home from '../../Components/Home/Home'
 import FeaturedHostel from '../../Components/FeaturedHostel/FeaturedHostel';
 import Steps from '../../Components/Steps/Steps'
+// import Hostelpage from '../Hostelpage/Hostelpage';
 import Navbar from "../../Components/Navbar/Navbar";
+import Recommended from "../../Components/Recommended/Recommended"
 import Footer from "../../Components/Footer/Footer";
 import styles from "./HomePage.module.css"
 const HomePage = () => {
@@ -12,13 +14,19 @@ const HomePage = () => {
         <>
         <Navbar />
         <div className={styles.homeContainer}>
-            <Home />
-            <About />
-            <FeaturedHostel/>
-            <Steps />
-            <Testimonials />
+             {/* <Home /> */}
+             {/* <Hostelpage /> */}
+              {/* <About />   */}
+             {/* <FeaturedHostel/>  */}
+             {/* <Steps />  */}
+             { <Recommended  />}
+             { <Recommended  />}
+             { <Recommended  />}
+             { <Recommended  />}
+             {/* { <Testimonials />  } */}
+             
         </div>
-        <Footer/>
+        {/* <Footer/> */}
         </>
     )
 }

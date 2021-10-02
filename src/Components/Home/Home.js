@@ -3,7 +3,6 @@ import styles from './Home.module.css';
 import finder from '../../Assets/images/finder.png';
 import line from '../../Assets/images/line.png';
 import Dropdown from './Dropdown'
-
 const Home = () => {
     return (
         <div id='home' className={styles.home}>

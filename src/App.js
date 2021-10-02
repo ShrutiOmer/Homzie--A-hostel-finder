@@ -40,7 +40,7 @@ import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
 import LoginPage from "./Pages/LoginPage/Login";
 import RegisterPage from "./Pages/RegisterPage/Register";
 import ResetPage from "./Pages/ResetPage/ResetPage"
-
+import Recommended from './Components/Recommended/Recommended';
 
 function App() {
   return (
@@ -51,6 +51,7 @@ function App() {
         <Route exact path="/login" component={LoginPage} />
         <Route exact path="/reset" component={ResetPage} />
         <Route exact path="/register" component={RegisterPage} />
+        <Route exact path="./Components/Recommended" component={Recommended} />
 
         <Route component={NotFoundPage} />
       </Switch>

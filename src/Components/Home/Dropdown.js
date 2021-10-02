@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import styles from './Dropdown.module.css';
+import Button  from "../Button/Button";
 function Dropdown() {
   const [selects, setSelects] = useState();
   return (
@@ -23,7 +24,8 @@ function Dropdown() {
         <option>Double Bed with AC</option>
       </select>
 
-      <button className={styles.sbtn}>Search</button>
+      {/* <button className={styles.sbtn}>Search</button> */}
+      <Button name ="Search" className={styles.sbtn} link="../Recommended"></Button>
     </div>
   )
 }
