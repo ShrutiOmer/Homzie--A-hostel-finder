@@ -1,0 +1,66 @@
+.dd{
+    width: 50%;
+    height: 40px;
+    /* border:1px solid grey;
+    border-radius: 6px;*/
+    box-shadow:0px 8px 15px rgba(0, 0, 0, 0.2); 
+   
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 45px;
+   
+    }
+
+    .dd1{
+        width : 34%;
+        height:40px;
+        
+        box-shadow:0px 8px 15px rgba(0, 0, 0, 0.2); 
+        font-weight: bold;
+        margin-left: 30px;
+        
+        font-size: x-large;
+        text-align: center;
+    }
+
+    .dd2{
+        width : 87%;
+        height:40px;
+       
+        box-shadow:0px 8px 15px rgba(0, 0, 0, 0.2); 
+        font-weight: bold;
+        margin-left: 70px;
+       
+        font-size: x-large;
+        text-align: center;
+
+    }
+    
+    .sbtn{
+     width: 38%;
+    height: 40px;
+    background: #FFBB0C;
+    color: black;
+    border-radius: 6px;
+    border: none;
+    margin-left: 50px;
+    
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 20px;
+    text-align: center;
+    }
+    
+    select:focus{
+        outline: none;
+    } 
+    
+    .container{
+        display: flex;
+        align-items: center;
+       
+   
+       
+    }
