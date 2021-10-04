@@ -10,10 +10,27 @@
 
 .linkcontent a:hover{
   cursor: pointer;
+  /* background-color: #fb8f1d; */
+  border-bottom: 2px solid  #fb8f1d;
+  /* color: white; */
+  /* padding: 10px; */
+  /* border-radius: 5px; */
+}
+.btn{
+  background: transparent;
+    font-size: 15px;
+    color: #fb8f1d;
+    border: 2px solid #fb8f1d;
+    border-radius: 5px;
+    width: 95px;
+    height: 28px;
+    margin-left: 19px;
+}
+
+.btn:hover{
   background-color: #fb8f1d;
   color: white;
-  padding: 10px;
-  border-radius: 5px;
+  cursor: pointer;
 }
 .nav{
    display: flex;

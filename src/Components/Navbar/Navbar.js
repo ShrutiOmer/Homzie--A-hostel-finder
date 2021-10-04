@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className={styles.nav}>
                 {/*Logo of the page*/}
                 <div className={styles.logo}>
-                    <img src={logo}></img>
+                    <a href='/'><img src={logo}></img></a>
                 </div>
                 {/*Menu-links*/}
                
@@ -39,8 +39,8 @@ const Navbar = () => {
 
                 </ul>
                 <div className={styles.btns}>
-                    <Button name="Login" link='/login'></Button>
-                    <Button name="Register" link='/register'></Button>
+                    <Button name="Login" link='/login' className={styles.btn}></Button>
+                    <Button name="Register" link='/register' className={styles.btn}></Button>
                 </div>
                 
             </nav>

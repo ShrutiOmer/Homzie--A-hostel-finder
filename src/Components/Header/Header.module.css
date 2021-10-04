@@ -1,0 +1,14 @@
+.header{
+    width: 100%;
+    background-color: #F8BF1D;
+}
+.heading{
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2rem;
+    line-height: 3rem;
+    /* text-align: center; */
+    margin-left: 2rem;
+
+}

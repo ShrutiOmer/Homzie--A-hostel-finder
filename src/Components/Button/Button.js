@@ -4,7 +4,7 @@ import styles from "./Button.module.css";
 function Button(props) {
     return(
         <div>
-        <Link to={props.link}><button className={styles.btn}>{props.name}</button></Link>
+        <Link to={props.link}><button className={props.className}>{props.name}</button></Link>
         </div>
     );
 };
