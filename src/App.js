@@ -41,6 +41,7 @@ import LoginPage from "./Pages/LoginPage/Login";
 import RegisterPage from "./Pages/RegisterPage/Register";
 import ResetPage from "./Pages/ResetPage/ResetPage"
 import FindPage from "./Pages/FindPage/findpage"
+import RecomPage from "./Pages/RecomPage/RecomPage"
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
         <Route exact path="/reset" component={ResetPage} />
         <Route exact path="/register" component={RegisterPage} />
         <Route exact path="/findpage" component={FindPage} />
+        <Route exact path="/recompage" component={RecomPage} />
 
         <Route component={NotFoundPage} />
       </Switch>

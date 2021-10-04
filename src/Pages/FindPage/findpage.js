@@ -3,6 +3,7 @@ import Navbar from '../../Components/Navbar/Navbar';
 import hostel from '../../Assets/images/hostel.jpg';
 import styles from './findpage.module.css';
 import Drop2down from './Drop2down';
+import RecomPage from "../RecomPage/RecomPage";
 const findpage = () => {
     return (
         <>
@@ -17,8 +18,12 @@ const findpage = () => {
              </div>
           
             <Drop2down/>
+            
         </div>
-
+            <RecomPage/>
+            <RecomPage/>
+            <RecomPage/>
+            <RecomPage/>
          
         </div>
         </>

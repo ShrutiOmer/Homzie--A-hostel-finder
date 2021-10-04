@@ -24,7 +24,10 @@ function Dropdown() {
         <option>Double Bed with AC</option>
       </select>
 
-      <Button name ="Search" className={styles.sbtn} link="/findpage"></Button>
+      <Button name ="Search" className={styles.sbtn} link="/findpage" ></Button>
+      {/* <Button name ="Search" className={styles.sbtn} link="/recompage"></Button> */}
+      
+
     </div>
   )
 }
