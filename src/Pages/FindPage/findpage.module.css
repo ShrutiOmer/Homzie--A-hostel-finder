@@ -6,7 +6,7 @@
 
 .hoSearch{
     background-color: rgba(21, 133, 86, 0.67);
-    height: 120px;
+    height: 80px;
      display: flex;
      align-items: center;
      margin-left:180px;
@@ -17,11 +17,13 @@
       
       border-radius: 20px;
 }
-
+.heading{
+    font-size: 23px;
+}
  .book{
     
-    width: 200px;
-    height: 100px;
+    width: 145px;
+    height: 66px;
     
     margin-left: 10px;
     border-radius: 20px;

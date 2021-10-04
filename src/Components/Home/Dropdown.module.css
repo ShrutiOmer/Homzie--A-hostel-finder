@@ -13,7 +13,7 @@ border-radius: 6px;
 .sbtn{
  width: 80%;
 height: 30px;
-background: #FB8F1D;
+background: #FB8F1D !important;
 color: white;
 border-radius: 6px;
 border: none;
