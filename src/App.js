@@ -5,7 +5,7 @@ import NotFoundPage from "./Pages/NotFoundPage/NotFoundPage";
 import LoginPage from "./Pages/LoginPage/Login";
 import RegisterPage from "./Pages/RegisterPage/Register";
 import ResetPage from "./Pages/ResetPage/ResetPage"
-import FindPage from "./Pages/FindPage/FindPage"
+import FindPage from "./Pages/FindPage/findpage"
 import HostelPage from "./Pages/HostelPage/HostelPage"
 
 function App() {
