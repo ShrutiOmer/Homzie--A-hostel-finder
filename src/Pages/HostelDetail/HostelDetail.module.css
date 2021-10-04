@@ -1,0 +1,48 @@
+ .card{
+ margin-bottom: 2em;
+} 
+.cardone{
+    height: auto;
+    display: grid;
+    grid-template-columns: 25% auto;
+    background: #FFFFFF;
+}
+.image1 img{
+    width: 191px;
+    height: 164px;
+    padding:8px;
+    margin-top: 3px;
+    margin-left: 4px;
+}
+.Cardcontent{
+    padding:8px;
+}
+.stepsBtn{
+    padding: 8px;
+}
+.btn{  
+    text-decoration: none;
+    border:#fff;
+    outline: none;
+    color: #fff;
+    font-weight: 200;
+    display: inline-block;
+    font-size: 16px;
+    padding: 5px 10px;
+    background:#158556
+}
+.button{
+    text-decoration: none;
+    border: #fff;
+    outline: none;
+    color: #fff;
+    font-weight: 200;
+    display: inline-block;
+    /* border-radius: 5px; */
+    font-size: 16px;
+    padding: 5px 10px;
+    /* margin-top: 21px; */
+    margin-left: 64px;
+    background: #fb8f1d;
+
+}
