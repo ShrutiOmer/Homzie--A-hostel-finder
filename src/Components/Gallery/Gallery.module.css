@@ -1,0 +1,74 @@
+.gallery {
+    margin-top: 30px;
+}
+.galleryContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.top{
+    display: flex;
+    height: 60%;
+    width: 100%;
+    padding: 10px;
+    /* background-color: aqua; */
+}
+.topLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+    /* padding-top: -5px; */
+    
+}
+.topright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    /* background-color: blueviolet; */
+}
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 40%;
+    margin-top: -32px;
+}
+.block {
+    width: 100%;
+    height: 100%;
+    margin: 4px;
+    padding: 10px;
+}
+.block img {
+    width: 100%;
+    height: 100%;
+}
+.topright> .block{
+    width: 100%;
+    height: 100%;
+    padding: 5px;
+}
+.topLeft > .block {
+    /* height: 240px; */
+    padding-top: 5px;
+}
+.bottom > .block {
+    padding: 8px;
+}
