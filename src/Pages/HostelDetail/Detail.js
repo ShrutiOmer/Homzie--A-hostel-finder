@@ -7,7 +7,7 @@ const Detail= [
         imgName : img,
         hostelName : "lorem Ipsum",
         price:'20rs',
-        link : "/"
+        link : "/hostelpage"
     },
     {
         id: 1,
@@ -15,7 +15,7 @@ const Detail= [
         imgName : img,
         hostelName : "lorem Ipsum",
         price:'20rs',
-        link : "/"
+        link : "/hostelpage"
     },
     {
         id: 2,
@@ -23,7 +23,7 @@ const Detail= [
         imgName : img,
         hostelName : "lorem Ipsum",
         price:'20rs',
-        link : "/"
+        link : "/hostelpage"
     },
     {
         id: 3,
@@ -31,7 +31,7 @@ const Detail= [
         imgName :img,
         hostelName : "lorem Ipsum",
         price:'20rs',
-        link : "/"
+        link : "/hostelpage"
     }
 ]
 export default Detail;
