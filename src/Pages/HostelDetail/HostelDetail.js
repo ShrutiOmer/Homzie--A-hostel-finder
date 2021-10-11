@@ -14,7 +14,7 @@ const HostelDetail = ({ data: {  detail,imgName, hostelName,price,link } }) => {
                     <a href="" className={styles.btn}>
                         Price: {price}
                     </a>
-                    <a href={link} className={styles.button}>
+                    <a href='./hostelpage' className={styles.button}>
                         Learn More
                     </a>
                 </div>
