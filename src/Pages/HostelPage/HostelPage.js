@@ -11,9 +11,9 @@ const HostelPage = () => {
         <>
         <Navbar />
         <div className={styles.hostelContainer}>
-        <Pricing />
         <Gallery />
-        <Header name='Facilities'/>
+        <Facility />
+        <Pricing />
         </div>
         <Footer/>
         </>
