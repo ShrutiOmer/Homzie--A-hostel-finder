@@ -4,8 +4,8 @@ import Footer from '../../Components/Footer/Footer'
 import hostel from '../../Assets/images/hostel.jpg';
 import styles from './findpage.module.css';
 import Drop2down from './Drop2down';
-import HostelDetail from "../HostelDetail/HostelDetail";
-import details from '../HostelDetail/Detail'
+import HostelDetail from "../../Components/HostelDetail/HostelDetail";
+import details from '../../Components/HostelDetail/Detail'
 const findpage = () => {
     return (
         <>

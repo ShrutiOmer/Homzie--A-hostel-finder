@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Navbar.module.css';
 import logo from '../../Assets/images/logo.png';
 import Button from '../Button/Button';
-// import { Link } from 'react-router-dom';
+ import { Link as Link1} from 'react-router-dom';
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
@@ -12,7 +12,7 @@ const Navbar = () => {
             <nav className={styles.nav}>
                 {/*Logo of the page*/}
                 <div className={styles.logo}>
-                    <a href='/'><img src={logo}></img></a>
+                    <Link1 to='/'><img src={logo} /></Link1>
                 </div>
                 {/*Menu-links*/}
                

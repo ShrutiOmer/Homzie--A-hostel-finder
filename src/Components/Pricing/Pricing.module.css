@@ -1,0 +1,29 @@
+.table{
+    border-spacing: 7px;
+    width: 100%;
+    margin-top: 20px;
+}
+.table thead,tbody tr{
+   border: 2px solid white ;
+   font-size: 1.5rem;
+   text-align: center;
+}
+.table tbody tr td{
+  padding: 2px;
+}
+.table thead tr {
+    padding: 2px;
+    color: white;
+  }
+.table thead{
+    background-color: #158556;
+}
+
+.table tbody tr{
+    background: rgba(21, 133, 86, 0.22);
+    box-shadow: 2px 4px 4px 2px rgba(0, 0, 0, 0.25);
+}
+.content{
+    width: 70%;
+    margin: auto;
+}

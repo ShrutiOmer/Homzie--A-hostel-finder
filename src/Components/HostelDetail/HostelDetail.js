@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import styles from './HostelDetail.module.css'
 const HostelDetail = ({ data: {  detail,imgName, hostelName,price,link } }) => {
     return (
@@ -11,12 +12,12 @@ const HostelDetail = ({ data: {  detail,imgName, hostelName,price,link } }) => {
                     <p>{detail}</p>
                 </div>
                 <div className={styles.stepsBtn}>
-                    <a href="" className={styles.btn}>
+                    <div className={styles.btn}>
                         Price: {price}
-                    </a>
-                    <a href={link} className={styles.button}>
+                    </div>
+                    <Link to={link} className={styles.button}>
                         Learn More
-                    </a>
+                    </Link>
                 </div>
                 </div>
             </div>
