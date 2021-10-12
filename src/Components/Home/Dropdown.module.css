@@ -17,6 +17,7 @@ background: #FB8F1D !important;
 color: white;
 border-radius: 6px;
 border: none;
+cursor: pointer;
 }
 
 select:focus{

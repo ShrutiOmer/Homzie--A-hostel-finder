@@ -28,7 +28,7 @@
     font-weight: 200;
     display: inline-block;
     font-size: 16px;
-    padding: 5px 10px;
+    padding: 7px 10px;
     background:#158556
 }
 .button{
@@ -40,7 +40,7 @@
     display: inline-block;
     /* border-radius: 5px; */
     font-size: 16px;
-    padding: 5px 10px;
+    padding: 7px 10px;
     /* margin-top: 21px; */
     margin-left: 64px;
     background: #fb8f1d;

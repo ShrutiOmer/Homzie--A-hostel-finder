@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './HostelPage.module.css'
-import Header from '../../Components/Header/Header'
+import Facility from '../../Components/Facility/Facility'
+import Pricing from '../../Components/Pricing/Pricing'
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 
@@ -9,7 +10,8 @@ const HostelPage = () => {
         <>
         <Navbar />
         <div className={styles.hostelContainer}>
-        <Header name='Facility'/>
+        <Facility />
+        <Pricing />
         </div>
         <Footer/>
         </>
