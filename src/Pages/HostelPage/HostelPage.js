@@ -5,14 +5,15 @@ import Pricing from '../../Components/Pricing/Pricing'
 import Navbar from "../../Components/Navbar/Navbar";
 import Footer from "../../Components/Footer/Footer";
 import Gallery from '../../Components/Gallery/Gallery';
-
+import Availability from "../../Components/Availability/avail"
 const HostelPage = () => {
     return (
         <>
         <Navbar />
         <div className={styles.hostelContainer}>
         <Gallery />
-        <Facility />
+        <Facility/>
+        <Availability/>
         <Pricing />
         </div>
         <Footer/>

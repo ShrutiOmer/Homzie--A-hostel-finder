@@ -1,0 +1,23 @@
+.dd1{
+   margin-left: 10px;
+   width:40px;
+   font-size: 17px;
+   
+}
+
+.dd2{
+    margin-left: 10px;
+    width: 40px;
+    font-size: 17px;
+}
+
+h5{
+    margin-left: 75px;
+}
+
+.container{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
