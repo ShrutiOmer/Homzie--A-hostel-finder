@@ -1,13 +1,20 @@
 .hostelContainer{
-    width:130%;
+    /* width:130%; */
     height:190px;
 }
+.review{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin-top: 42px;
+
+}
 .rate{
-    position: absolute;
+    /* position: absolute; */
     width: 66px;
     height: 58px;
-    left: 60px;
-    top: 165px;
+    /* left: 60px;
+    top: 165px; */
     background: #158556;
     color: azure;
     text-align: justify;
@@ -22,15 +29,15 @@
     margin-left: -63px;
 }
 .rating{
-    margin-left: 237px;
-    margin-top: 41px;
+    /* margin-left: 237px;
+    margin-top: 41px; */
     font-size: 200%;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;
 }
 .comment{
-    margin-left: 420px;
-    margin-top: -41px;
+    /* margin-left: 420px;
+    margin-top: -41px; */
     font-size: 200%;
     font-weight: 500;
     font-family: Arial, Helvetica, sans-serif;

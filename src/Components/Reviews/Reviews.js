@@ -8,9 +8,8 @@ const Reviews = () => {
         <>
         
         <div className={styles.hostelContainer}>
-        <div className={styles.name}>
         <Header name='Reviews'/>
-        </div>
+        <div className={styles.review}>
         <div className={styles.rate}>
             <h4>9.0</h4>
         </div>
@@ -20,6 +19,7 @@ const Reviews = () => {
         </div>
         <div className={styles.comment}>
             <p>24 Reviews</p>
+        </div>
         </div>
         </div>
         </>
