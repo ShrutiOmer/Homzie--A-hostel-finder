@@ -1,0 +1,15 @@
+.hostelContainer{
+    width: 130%;
+    height: 190px;
+}
+.image img    {
+    width: 300px;
+    height: 192px;
+    padding:8px;
+    margin-left: 7%;
+    margin-top: 3%;
+}
+.Cardcontent h1{
+    margin-left: 110px;
+    margin-top: 25px;
+}
